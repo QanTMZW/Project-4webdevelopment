@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale =1.0">
+    <title>Visit Japan website design -demo-</title>
+    <link rel= "stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Shippori+Antique&family=Shippori+Antique+B1&family=Shippori+Mincho+B1:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <<nav>
+        <a href="Project 1.html"><img src="https://png.pngtree.com/templates/sm/20180508/sm_5af1e00b10f2d.jpg" style="width:100px;height:100px;"> </a>
+
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="Project 1.html">HOME</a></li>
+            <li><a href="">TOKYO</a></li>
+            <li><a href="">THINGS TO DO</a></li>
+            <li><a href="">CONTACT US!</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-sort-desc" onclick="showMenu()"></i>
+
+      </nav>
+    <div class="text-box" style="color:hotpink">
+      <h1><center>Visit Tokyo, Japan, A very Beautiful Place!</center></h1>
+      <p style="color:White">Come to Tokyo, Japan and witness the <em>marvelous city</em> of Tokyo.<br> There are many things to do in this great city!
+      </p>
+      <a href="" class="hero-btn">Contact Us To know More!</a>
+
+    </div>
+
+    </section>
+
+<!-------------Javascript for toggle menu------------->
+    <script>
+      var navlinks= document.getElementById("navlinks");
+
+      function showMenu(){
+        navlinks.style.right="0";
+      }
+      function hideMenu(){
+        navlinks.style.right="-200px";
+      }
+
+    </script>
+
+<!--------------Different pages-------->
+<hr class="solid">
+<nav class="footer">
+           <a href="Project 1.html">Home</a>
+           <a href="TOKYO.html">TOKYO</a>
+           <a href="ThingsToDo.html">Things To Do</a>
+           <a href="ContactUs.html">Contact Us</a>
+       </nav>
+
+  </body>
+</html>
